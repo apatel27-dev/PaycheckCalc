@@ -1,0 +1,167 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\source\\Paylocity\\Excercise\\PaylocityBackEndChallengeSeed-main\\PaylocityBenefitsCalculator\\ApiTests\\ApiTests.csproj": {}
+  },
+  "projects": {
+    "C:\\source\\Paylocity\\Excercise\\PaylocityBackEndChallengeSeed-main\\PaylocityBenefitsCalculator\\ApiTests\\ApiTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\source\\Paylocity\\Excercise\\PaylocityBackEndChallengeSeed-main\\PaylocityBenefitsCalculator\\ApiTests\\ApiTests.csproj",
+        "projectName": "ApiTests",
+        "projectPath": "C:\\source\\Paylocity\\Excercise\\PaylocityBackEndChallengeSeed-main\\PaylocityBenefitsCalculator\\ApiTests\\ApiTests.csproj",
+        "packagesPath": "C:\\Users\\apr4086\\.nuget\\packages\\",
+        "outputPath": "C:\\source\\Paylocity\\Excercise\\PaylocityBackEndChallengeSeed-main\\PaylocityBenefitsCalculator\\ApiTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\apr4086\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\source\\Paylocity\\Excercise\\PaylocityBackEndChallengeSeed-main\\PaylocityBenefitsCalculator\\Api\\Api.csproj": {
+                "projectPath": "C:\\source\\Paylocity\\Excercise\\PaylocityBackEndChallengeSeed-main\\PaylocityBenefitsCalculator\\Api\\Api.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Testing": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\source\\Paylocity\\Excercise\\PaylocityBackEndChallengeSeed-main\\PaylocityBenefitsCalculator\\Api\\Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\source\\Paylocity\\Excercise\\PaylocityBackEndChallengeSeed-main\\PaylocityBenefitsCalculator\\Api\\Api.csproj",
+        "projectName": "Api",
+        "projectPath": "C:\\source\\Paylocity\\Excercise\\PaylocityBackEndChallengeSeed-main\\PaylocityBenefitsCalculator\\Api\\Api.csproj",
+        "packagesPath": "C:\\Users\\apr4086\\.nuget\\packages\\",
+        "outputPath": "C:\\source\\Paylocity\\Excercise\\PaylocityBackEndChallengeSeed-main\\PaylocityBenefitsCalculator\\Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\apr4086\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Swashbuckle.AspNetCore.Annotations": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
